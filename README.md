@@ -11,7 +11,6 @@ Despite breakthroughs in text-to-speech (TTS) synthesis, producing natural-sound
 
 ### MODEL
 
-Implementation of Transformer TTS model
 <img width="288" alt="image" src="https://github.com/PRIYANG012/TTS_Transformer/assets/45707603/81c56c7a-9981-4829-a805-7c969b11a2ae">
 
 
