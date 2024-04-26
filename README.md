@@ -19,3 +19,31 @@ Despite breakthroughs in text-to-speech (TTS) synthesis, producing natural-sound
 (IMPORTANT) STOP TOKEN : The stop token mechanism is vital in autoregressive models, particularly in text-to-speech systems. It functions as a signal to indicate when audio creation should stop. The stop token tensor is organised similarly to an aligned spectrogram, and its length corresponds to the time dimension.
 
 
+## CONCLUSION
+
+Experimenting with Transformer-based Text-to-Speech (TTS) models and Tacotron2 within the SpeechBrain framework has given useful insights, despite substantial resource constraints. Here's an overview of the important results and their implications:
+
+### 1. Model Performance Comparison 
+
+* Both the Transformer TTS and Tacotron2 models trained well, as shown by lower losses on training and validation data.
+* The Transformer TTS model outperformed Tacotron2 by a little percentage, indicating possibly higher generalisation capabilities.
+
+#### 2. Batch Size Impact:
+
+* Comparing different batch sizes revealed that a larger batch size of 32 tended to outperform a batch size of 8 in terms of training and validation losses.
+* This suggests that larger batch sizes may facilitate more efficient optimization and enhanced generalization.
+*Nonetheless, considerations regarding computational resources must be weighed against the benefits of larger batch sizes, as they may require more memory and computational power.
+
+#### 3. Learning Rate Annealing:
+
+* Experimentation with varying learning rates demonstrated potential benefits towards the end of training.
+* Learning rate annealing may contribute to improved model performance, but conclusive evidence was hindered by resource constraints.
+
+#### 4.Resource Limitations and Future Directions:
+
+* Limited computational resources, including the constraints of Google Colab Pro and V100 GPU units, impeded the ability to train models for an extended number of epochs.
+* To overcome these limitations and draw more definitive conclusions, future work should explore alternative computational resources or distributed training setups.
+* Implementation on Phoneme based approch as well as use of vocoders architecture and can also explore VIT.
+
+
+
