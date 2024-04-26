@@ -6,6 +6,9 @@
 * download the trained model using following link and place the result folder in the folder which containes .ipynb file and dataset
 * link : https://drive.google.com/file/d/1AI-h-0PnFXmLc8J1A1Y23buUgCWJ-L9o/view?usp=drive_link
 * using ipynb you can test everything
+* If you open the file on colab it will be easy for you to navigate between the sections
+  
+  <img width="430" alt="image" src="https://github.com/PRIYANG012/TTS_Transformer/assets/45707603/f99f1f9b-0a18-450f-a250-1be4cecd7ad6">
 
   
 ## Introduction
